@@ -17,5 +17,10 @@
   </dependencies>
   <build>
     <finalName>gctech</finalName>
+    <dependency>
+ <groupId>org.springframework.boot</groupId>
+ <artifactId>spring-boot-starter-tomcat</artifactId>
+ <scope>provided</scope> <!-- This is important. -->
+</dependency>
   </build>
 </project>
